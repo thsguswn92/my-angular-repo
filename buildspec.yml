@@ -11,7 +11,7 @@ phases:
   build:
     commands:
       - echo Build error simulation!
-      - exit
+      - exit 1
       - ng build -c production
     finally:
       - echo This is the finally block execution!
